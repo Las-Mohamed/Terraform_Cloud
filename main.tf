@@ -6,6 +6,13 @@ terraform {
       version  = "3.43.0"
     }
   }
+  cloud {
+    organization = "LastTest"
+
+    workspaces {
+      name = "TerraformCi"
+    }
+  }
  
   }
 
