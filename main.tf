@@ -21,8 +21,8 @@ resource "random_string" "uniquestring" {
 }
 
 resource "azurerm_resource_group" "rg" {
-  name     = "continuous-delivery-with-git"
-  location = "eastus"
+  name     = "Last-Terra-Cloud"
+  location = "westeurope"
 }
 
 resource "azurerm_storage_account" "storageaccount" {
